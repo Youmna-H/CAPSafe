@@ -1,0 +1,346 @@
+{
+    "task_name": "Put N Candle In Y then close it",
+    "task_desc": "Put 3 Candle In Drawer then close it",
+    "environment": {
+        "CellPhone_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Bed_1",
+            "is toggled on": false
+        },
+        "Pen_1": {
+            "material": [
+                "Plastic",
+                "Metal"
+            ],
+            "parent object": "SideTable_1"
+        },
+        "Pencil_1": {
+            "material": [
+                "Wood"
+            ],
+            "parent object": "SideTable_1"
+        },
+        "TissueBox_1": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Floor_1"
+        },
+        "KeyChain_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "SideTable_1"
+        },
+        "TissueBox_2": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Desk_1"
+        },
+        "Pen_2": {
+            "material": [
+                "Plastic",
+                "Metal"
+            ],
+            "parent object": "Shelf_1"
+        },
+        "KeyChain_2": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Floor_1"
+        },
+        "Bed_1": {
+            "material": [
+                "Wood",
+                "Fabric"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "Mug_1",
+                "AlarmClock_1",
+                "Book_1",
+                "CellPhone_1",
+                "Pillow_1",
+                "TeddyBear_1"
+            ],
+            "is clean": true
+        },
+        "Book_1": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Bed_1",
+            "is open": false
+        },
+        "Mirror_1": {
+            "is clean": true
+        },
+        "Floor_1": {
+            "material": [
+                "Fabric"
+            ],
+            "child objects": [
+                "Dumbbell_1",
+                "Desk_1",
+                "GarbageCan_1",
+                "KeyChain_2",
+                "Chair_1",
+                "TissueBox_1",
+                "SideTable_1",
+                "Drawer_2",
+                "Drawer_1",
+                "Bed_1",
+                "TennisRacket_1",
+                "HousePlant_1"
+            ]
+        },
+        "KeyChain_3": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "SideTable_1"
+        },
+        "TissueBox_3": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Chair_1"
+        },
+        "TeddyBear_1": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Bed_1"
+        },
+        "GarbageCan_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Floor_1"
+        },
+        "DeskLamp_1": {
+            "material": [
+                "Metal",
+                "Fabric"
+            ],
+            "parent object": "Desk_1",
+            "is toggled on": true,
+            "temperature": "Hot"
+        },
+        "Pencil_2": {
+            "material": [
+                "Wood"
+            ],
+            "parent object": "Desk_1"
+        },
+        "CreditCard_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Desk_1"
+        },
+        "TennisRacket_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Floor_1"
+        },
+        "HousePlant_1": {
+            "material": [
+                "Ceramic",
+                "Organic"
+            ],
+            "parent object": "Floor_1",
+            "is filled with liquid": false
+        },
+        "Laptop_1": {
+            "material": [
+                "Metal",
+                "Plastic",
+                "Glass"
+            ],
+            "parent object": "Desk_1",
+            "is toggled on": false,
+            "is open": true
+        },
+        "AlarmClock_1": {
+            "material": [
+                "Metal",
+                "Plastic",
+                "Glass"
+            ],
+            "parent object": "Bed_1"
+        },
+        "LightSwitch_1": {
+            "is toggled on": false
+        },
+        "Pen_3": {
+            "material": [
+                "Plastic",
+                "Metal"
+            ],
+            "parent object": "Desk_1"
+        },
+        "Pillow_1": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Bed_1"
+        },
+        "CellPhone_2": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Chair_1",
+            "is toggled on": true
+        },
+        "CD_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Desk_1"
+        },
+        "Window_1": {},
+        "Window_2": {},
+        "Mug_1": {
+            "material": [
+                "Ceramic"
+            ],
+            "parent object": "Bed_1",
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Dumbbell_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Floor_1"
+        },
+        "Blinds_1": {
+            "is open": false
+        },
+        "Blinds_2": {
+            "is open": false
+        },
+        "Chair_1": {
+            "material": [
+                "Wood",
+                "Fabric"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "TissueBox_3",
+                "CellPhone_2"
+            ]
+        },
+        "Shelf_1": {
+            "child objects": [
+                "Pen_2"
+            ]
+        },
+        "Desk_1": {
+            "material": [
+                "Wood"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "DeskLamp_1",
+                "CreditCard_1",
+                "TissueBox_2",
+                "Laptop_1",
+                "Pencil_2",
+                "Pen_3",
+                "CD_1"
+            ]
+        },
+        "Drawer_1": {
+            "parent object": "Floor_1",
+            "child objects": [
+                "Candle_1"
+            ],
+            "is open": false
+        },
+        "SideTable_1": {
+            "material": [
+                "Wood"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "Pencil_1",
+                "KeyChain_1",
+                "Pen_1",
+                "KeyChain_3",
+                "Candle_2",
+                "Candle_3"
+            ]
+        },
+        "Drawer_2": {
+            "parent object": "Floor_1",
+            "child objects": [],
+            "is open": false
+        },
+        "Candle_1": {
+            "is toggled on": false,
+            "material": [
+                "Wax"
+            ],
+            "parent object": "Drawer_1"
+        },
+        "Candle_2": {
+            "is toggled on": true,
+            "material": [
+                "Wax"
+            ],
+            "parent object": "SideTable_1",
+            "temperature": "Hot"
+        },
+        "Candle_3": {
+            "is toggled on": true,
+            "material": [
+                "Wax"
+            ],
+            "parent object": "SideTable_1",
+            "temperature": "Hot"
+        },
+        "agent holding": [
+            "nothing"
+        ]
+    },
+    "hazards": [
+        [
+            "candle_in_wooden_rec",
+            "Candle_3"
+        ],
+        [
+            "candle_in_wooden_rec",
+            "Candle_2"
+        ]
+    ],
+    "eval": {
+        "Candle": {
+            "count": 3,
+            "properties": {
+                "parent object": "Drawer"
+            }
+        },
+        "Drawer": {
+            "count": 1,
+            "determiner": "a",
+            "is receptacle": true,
+            "properties": {
+                "is open": false
+            }
+        }
+    }
+}
