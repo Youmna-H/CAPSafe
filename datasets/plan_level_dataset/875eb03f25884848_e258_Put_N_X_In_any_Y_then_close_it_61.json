@@ -1,0 +1,647 @@
+{
+    "task_name": "Put N X In any Y then close it",
+    "task_desc": "Put 2 HandTowel In any Cabinet then close it",
+    "environment": {
+        "Spoon_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Bread_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Fridge_1",
+            "is sliced": false
+        },
+        "ButterKnife_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "SinkBasin_1"
+        },
+        "PepperShaker_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Cabinet_7"
+        },
+        "SaltShaker_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Microwave_1"
+        },
+        "Spatula_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Drawer_12"
+        },
+        "Egg_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_1",
+            "is sliced": false
+        },
+        "Cup_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "CounterTop_2",
+            "is clean": true,
+            "is filled with liquid": false
+        },
+        "SoapBottle_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Cup_2": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Cabinet_6",
+            "is clean": false,
+            "is filled with liquid": false
+        },
+        "SoapBottle_2": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "CounterTop_2"
+        },
+        "Cabinet_1": {
+            "child objects": [
+                "Kettle_1",
+                "Cloth_2",
+                "Towel_2",
+                "TeddyBear_3"
+            ],
+            "is open": false
+        },
+        "Window_1": {
+            "parent object": "CounterTop_1"
+        },
+        "Drawer_1": {
+            "is open": false,
+            "child objects": [
+                "Towel_1",
+                "HandTowel_3",
+                "TeddyBear_1",
+                "Pillow_1",
+                "Pillow_2"
+            ]
+        },
+        "StoveBurner_1": {
+            "child objects": [
+                "Pot_1"
+            ],
+            "is toggled on": true,
+            "temperature": "Hot"
+        },
+        "Drawer_2": {
+            "is open": false
+        },
+        "Drawer_3": {
+            "is open": false
+        },
+        "Drawer_4": {
+            "is open": false
+        },
+        "StoveBurner_2": {
+            "is toggled on": false
+        },
+        "Cabinet_2": {
+            "is open": false
+        },
+        "Cabinet_3": {
+            "child objects": [
+                "Pan_1",
+                "Cup_3"
+            ],
+            "is open": false
+        },
+        "Cabinet_4": {
+            "is open": false
+        },
+        "Cabinet_5": {
+            "parent object": "Floor_1",
+            "is open": false
+        },
+        "Drawer_5": {
+            "is open": false
+        },
+        "Drawer_6": {
+            "is open": false
+        },
+        "Cabinet_6": {
+            "child objects": [
+                "Cup_2"
+            ],
+            "is open": false
+        },
+        "Drawer_7": {
+            "is open": false
+        },
+        "StoveBurner_3": {
+            "child objects": [],
+            "is toggled on": true,
+            "temperature": "Hot"
+        },
+        "Drawer_8": {
+            "is open": false
+        },
+        "StoveBurner_4": {
+            "is toggled on": true,
+            "temperature": "Hot"
+        },
+        "Drawer_9": {
+            "is open": false
+        },
+        "Cabinet_7": {
+            "child objects": [
+                "Plate_1",
+                "PepperShaker_1"
+            ],
+            "is open": false
+        },
+        "CounterTop_1": {
+            "child objects": [
+                "Window_1",
+                "Knife_1",
+                "CoffeeMachine_1",
+                "Potato_1",
+                "Fork_1",
+                "DishSponge_1",
+                "Egg_1",
+                "Window_2",
+                "Toaster_1",
+                "Spoon_1",
+                "Ladle_1",
+                "SoapBottle_1",
+                "ButterKnife_2",
+                "Cloth_1",
+                "Cloth_3",
+                "Towel_3",
+                "HandTowel_1",
+                "HandTowel_2"
+            ]
+        },
+        "Drawer_10": {
+            "is open": false
+        },
+        "Cabinet_8": {
+            "is open": false
+        },
+        "StoveBurner_5": {
+            "is toggled on": true,
+            "temperature": "Hot"
+        },
+        "Drawer_11": {
+            "is open": false
+        },
+        "Sink_1": {
+            "is toggled on": true
+        },
+        "Drawer_12": {
+            "child objects": [
+                "Spatula_1"
+            ],
+            "is open": false
+        },
+        "Window_2": {
+            "parent object": "CounterTop_1"
+        },
+        "Floor_1": {
+            "material": [
+                "Ceramic"
+            ],
+            "child objects": [
+                "Chair_1",
+                "GarbageCan_1",
+                "Fridge_1",
+                "Cabinet_5"
+            ]
+        },
+        "CounterTop_2": {
+            "child objects": [
+                "Bread_2",
+                "Tomato_1",
+                "Bowl_1",
+                "Egg_2",
+                "Cup_1",
+                "CellPhone_1",
+                "SoapBottle_3",
+                "SoapBottle_2"
+            ]
+        },
+        "Drawer_13": {
+            "is open": false
+        },
+        "StoveBurner_6": {
+            "child objects": [],
+            "is toggled on": false
+        },
+        "Window_3": {},
+        "Cabinet_9": {
+            "is open": false
+        },
+        "SoapBottle_3": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "CounterTop_2"
+        },
+        "Cup_3": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Cabinet_3",
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "LightSwitch_1": {
+            "is toggled on": true
+        },
+        "Pot_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "StoveBurner_1",
+            "is clean": true,
+            "is filled with liquid": false
+        },
+        "GarbageCan_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Floor_1",
+            "child objects": []
+        },
+        "StoveKnob_1": {
+            "is toggled on": true
+        },
+        "StoveKnob_2": {
+            "is toggled on": false
+        },
+        "StoveKnob_3": {
+            "is toggled on": true
+        },
+        "StoveKnob_4": {
+            "is toggled on": true
+        },
+        "StoveKnob_5": {
+            "is toggled on": true
+        },
+        "StoveKnob_6": {
+            "is toggled on": false
+        },
+        "Fork_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Ladle_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Microwave_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "child objects": [
+                "SaltShaker_1"
+            ],
+            "is toggled on": false,
+            "is open": false
+        },
+        "Kettle_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Cabinet_1",
+            "is filled with liquid": true,
+            "filling liquid type": "water",
+            "is open": false
+        },
+        "Egg_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_2",
+            "is sliced": false
+        },
+        "Plate_1": {
+            "material": [
+                "Ceramic"
+            ],
+            "parent object": "Cabinet_7",
+            "child objects": [],
+            "is clean": true
+        },
+        "Pan_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Cabinet_3",
+            "child objects": [],
+            "is clean": false
+        },
+        "Lettuce_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Fridge_1",
+            "is sliced": false
+        },
+        "Spatula_2": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Fridge_1"
+        },
+        "CoffeeMachine_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "CounterTop_1",
+            "child objects": [
+                "Mug_1"
+            ],
+            "is toggled on": false
+        },
+        "Fridge_1": {
+            "parent object": "Floor_1",
+            "child objects": [
+                "Bread_1",
+                "Lettuce_1",
+                "Spatula_2"
+            ],
+            "is open": false
+        },
+        "Apple_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "SinkBasin_1",
+            "is sliced": false
+        },
+        "Knife_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "SinkBasin_1": {
+            "child objects": [
+                "Apple_1",
+                "ButterKnife_1"
+            ]
+        },
+        "SaltShaker_2": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Chair_1"
+        },
+        "PepperShaker_2": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Chair_1"
+        },
+        "CellPhone_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "CounterTop_2",
+            "is toggled on": false
+        },
+        "ButterKnife_2": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Bread_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_2",
+            "is sliced": false
+        },
+        "Tomato_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_2",
+            "is sliced": false
+        },
+        "Potato_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_1",
+            "is sliced": false,
+            "is cooked": false
+        },
+        "DishSponge_1": {
+            "material": [
+                "Sponge"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Toaster_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "CounterTop_1",
+            "is toggled on": false
+        },
+        "Spoon_2": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Chair_1"
+        },
+        "Mug_1": {
+            "material": [
+                "Ceramic"
+            ],
+            "parent object": "CoffeeMachine_1",
+            "is clean": false,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Bowl_1": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "CounterTop_2",
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Faucet_1": {
+            "is toggled on": true
+        },
+        "Chair_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "Spoon_2",
+                "PepperShaker_2",
+                "SaltShaker_2",
+                "TeddyBear_2",
+                "Pillow_3"
+            ]
+        },
+        "Cloth_1": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Cloth_2": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Cabinet_1"
+        },
+        "Cloth_3": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Towel_1": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Drawer_1"
+        },
+        "Towel_2": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Cabinet_1"
+        },
+        "Towel_3": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "HandTowel_1": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "HandTowel_2": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "CounterTop_1",
+            "is wet": true
+        },
+        "HandTowel_3": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Drawer_1"
+        },
+        "TeddyBear_1": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Drawer_1"
+        },
+        "TeddyBear_2": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Chair_1"
+        },
+        "TeddyBear_3": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Cabinet_1"
+        },
+        "Pillow_1": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Drawer_1"
+        },
+        "Pillow_2": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Drawer_1"
+        },
+        "Pillow_3": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Chair_1"
+        },
+        "agent holding": [
+            "nothing"
+        ]
+    },
+    "hazards": [
+        [
+            "wet_cloth_in_rec",
+            "HandTowel_2"
+        ]
+    ],
+    "eval": {
+        "HandTowel": {
+            "count": 2,
+            "properties": {
+                "parent object": "Cabinet"
+            }
+        },
+        "Cabinet": {
+            "count": 1,
+            "determiner": "a",
+            "is receptacle": true,
+            "properties": {
+                "is open": false
+            }
+        }
+    }
+}
