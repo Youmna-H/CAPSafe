@@ -1,0 +1,898 @@
+{
+    "task_name": "Coffee",
+    "task_desc": "Prepare coffee in a mug",
+    "environment": {
+        "Mug_1": {
+            "material": [
+                "Ceramic"
+            ],
+            "parent object": "CounterTop_2",
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Spoon_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Stool_1"
+        },
+        "Pan_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "DiningTable_2",
+            "is clean": false
+        },
+        "ButterKnife_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Fridge_1"
+        },
+        "Potato_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_2",
+            "is sliced": false,
+            "is cooked": false
+        },
+        "SaltShaker_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "DiningTable_1"
+        },
+        "Egg_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Fridge_1",
+            "is sliced": false
+        },
+        "Knife_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Cup_1": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "DiningTable_2",
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Apple_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_2",
+            "is sliced": false
+        },
+        "Bowl_1": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "DiningTable_1",
+            "is clean": false,
+            "is filled with liquid": false
+        },
+        "Spatula_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Fridge_1"
+        },
+        "WineBottle_1": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "Cabinet_11",
+            "is filled with liquid": false
+        },
+        "SoapBottle_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "Pot_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "StoveBurner_3",
+            "child objects": [
+                "Egg_2"
+            ],
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Lettuce_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "DiningTable_2",
+            "is sliced": false
+        },
+        "CellPhone_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "SinkBasin_1",
+            "is toggled on": true
+        },
+        "Tomato_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Fridge_1",
+            "is sliced": false
+        },
+        "Kettle_1": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Shelf_1",
+            "is filled with liquid": false,
+            "is open": false
+        },
+        "Fork_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "CounterTop_2"
+        },
+        "Bottle_1": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "CounterTop_1",
+            "is filled with liquid": false
+        },
+        "Bread_1": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "DiningTable_1",
+            "is sliced": false
+        },
+        "Apple_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_1",
+            "is sliced": false
+        },
+        "SaltShaker_2": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Microwave_1"
+        },
+        "Lettuce_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Cabinet_3",
+            "is sliced": false
+        },
+        "Bowl_2": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "CounterTop_2",
+            "is clean": false,
+            "is filled with liquid": false
+        },
+        "Cup_2": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Shelf_2",
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Spatula_2": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "DiningTable_1"
+        },
+        "Kettle_2": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "CounterTop_1",
+            "is filled with liquid": true,
+            "filling liquid type": "water",
+            "is open": false
+        },
+        "Bottle_2": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "Shelf_2",
+            "is filled with liquid": false
+        },
+        "Bread_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Fridge_1",
+            "is sliced": false
+        },
+        "Bottle_3": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "SinkBasin_1",
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "CellPhone_2": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "SinkBasin_1",
+            "is toggled on": true
+        },
+        "Spatula_3": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Fridge_1"
+        },
+        "Bowl_3": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "Shelf_2",
+            "is clean": true,
+            "is filled with liquid": false
+        },
+        "Cup_3": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "CounterTop_2",
+            "is clean": true,
+            "is filled with liquid": false
+        },
+        "SaltShaker_3": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Fridge_1"
+        },
+        "SaltShaker_4": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Fridge_1"
+        },
+        "Bread_3": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Shelf_2",
+            "is sliced": false
+        },
+        "Bowl_4": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "DiningTable_1",
+            "is clean": false,
+            "is filled with liquid": false
+        },
+        "SoapBottle_2": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Cabinet_15"
+        },
+        "Tomato_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Shelf_2",
+            "is sliced": false
+        },
+        "Cup_4": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Cabinet_18",
+            "is clean": true,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Egg_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Pot_1",
+            "is sliced": false
+        },
+        "Spoon_2": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Drawer_4"
+        },
+        "Bottle_4": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "Shelf_2",
+            "is filled with liquid": false
+        },
+        "CellPhone_3": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "SinkBasin_1",
+            "is toggled on": true
+        },
+        "DiningTable_1": {
+            "material": [
+                "Wood",
+                "Plastic"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "Bowl_1",
+                "Bowl_4",
+                "SaltShaker_1",
+                "Spatula_2",
+                "SprayBottle_1",
+                "Spatula_4",
+                "Lettuce_3",
+                "Tomato_3",
+                "Bread_1",
+                "ButterKnife_2"
+            ]
+        },
+        "Cabinet_1": {
+            "is open": false
+        },
+        "Cabinet_2": {
+            "is open": false
+        },
+        "Cabinet_3": {
+            "child objects": [
+                "Lettuce_2"
+            ],
+            "is open": false
+        },
+        "Cabinet_4": {
+            "is open": false
+        },
+        "Cabinet_5": {
+            "is open": false
+        },
+        "Cabinet_6": {
+            "is open": false
+        },
+        "Cabinet_7": {
+            "child objects": [
+                "Apple_3"
+            ],
+            "is open": false
+        },
+        "Cabinet_8": {
+            "is open": false
+        },
+        "Cabinet_9": {
+            "is open": false
+        },
+        "Cabinet_10": {
+            "is open": false
+        },
+        "Cabinet_11": {
+            "child objects": [
+                "WineBottle_1"
+            ],
+            "is open": false
+        },
+        "Cabinet_12": {
+            "is open": false
+        },
+        "Cabinet_13": {
+            "is open": false
+        },
+        "Cabinet_14": {
+            "is open": false
+        },
+        "Cabinet_15": {
+            "child objects": [
+                "SoapBottle_2"
+            ],
+            "is open": false
+        },
+        "Cabinet_16": {
+            "child objects": [
+                "Plate_1"
+            ],
+            "is open": false
+        },
+        "Cabinet_17": {
+            "child objects": [],
+            "is open": false
+        },
+        "Cabinet_18": {
+            "child objects": [
+                "Cup_4"
+            ],
+            "is open": false
+        },
+        "CounterTop_1": {
+            "child objects": [
+                "Bottle_1",
+                "Apple_2",
+                "Kettle_2",
+                "SoapBottle_1",
+                "Knife_1",
+                "CoffeeMachine_1",
+                "Toaster_1",
+                "Egg_3"
+            ]
+        },
+        "Floor_1": {
+            "material": [
+                "Stone",
+                "Wood"
+            ],
+            "child objects": [
+                "Fridge_1",
+                "DiningTable_1",
+                "Shelf_1",
+                "GarbageCan_1",
+                "PepperShaker_1",
+                "DiningTable_2",
+                "Stool_1"
+            ]
+        },
+        "Drawer_1": {
+            "is open": false
+        },
+        "Drawer_2": {
+            "is open": false
+        },
+        "Cabinet_19": {
+            "is open": false
+        },
+        "Drawer_3": {
+            "is open": false
+        },
+        "Cabinet_20": {
+            "is open": false
+        },
+        "CounterTop_2": {
+            "child objects": [
+                "Mug_2",
+                "Bottle_5",
+                "Pot_2",
+                "Apple_1",
+                "Bowl_2",
+                "Knife_2",
+                "Cup_3",
+                "Faucet_1",
+                "Fork_1",
+                "Mug_1",
+                "Potato_1"
+            ]
+        },
+        "StoveBurner_1": {
+            "is toggled on": false
+        },
+        "StoveBurner_2": {
+            "is toggled on": false
+        },
+        "StoveBurner_3": {
+            "child objects": [
+                "Pot_1"
+            ],
+            "is toggled on": false
+        },
+        "Drawer_4": {
+            "child objects": [
+                "Spoon_2"
+            ],
+            "is open": false
+        },
+        "Sink_1": {
+            "is toggled on": true
+        },
+        "Drawer_5": {
+            "is open": false
+        },
+        "StoveBurner_4": {
+            "is toggled on": true,
+            "temperature": "Hot"
+        },
+        "Drawer_6": {
+            "is open": false
+        },
+        "Bread_4": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "DiningTable_2",
+            "is sliced": false
+        },
+        "StoveKnob_1": {
+            "is toggled on": false
+        },
+        "StoveKnob_2": {
+            "is toggled on": false
+        },
+        "StoveKnob_3": {
+            "is toggled on": false
+        },
+        "StoveKnob_4": {
+            "is toggled on": true
+        },
+        "Bottle_5": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "CounterTop_2",
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Fork_2": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Fridge_1"
+        },
+        "CoffeeMachine_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "CounterTop_1",
+            "is toggled on": false
+        },
+        "Fridge_1": {
+            "parent object": "Floor_1",
+            "child objects": [
+                "Fork_2",
+                "SaltShaker_3",
+                "Bread_2",
+                "Spatula_1",
+                "Egg_1",
+                "Potato_2",
+                "Kettle_3",
+                "SaltShaker_4",
+                "Tomato_1",
+                "ButterKnife_1",
+                "Spatula_3",
+                "Bowl_5"
+            ],
+            "is open": false
+        },
+        "Kettle_3": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Fridge_1",
+            "is filled with liquid": true,
+            "filling liquid type": "water",
+            "is open": false
+        },
+        "Tomato_3": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "DiningTable_1",
+            "is sliced": false
+        },
+        "Plate_1": {
+            "material": [
+                "Ceramic"
+            ],
+            "parent object": "Cabinet_16",
+            "is clean": false
+        },
+        "CellPhone_4": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "SinkBasin_1",
+            "is toggled on": true
+        },
+        "Lettuce_3": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "DiningTable_1",
+            "is sliced": false
+        },
+        "Pot_2": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "CounterTop_2",
+            "child objects": [
+                "WineBottle_2"
+            ],
+            "is clean": false,
+            "is filled with liquid": false
+        },
+        "SoapBottle_3": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "DiningTable_2"
+        },
+        "GarbageCan_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Floor_1",
+            "child objects": []
+        },
+        "Window_1": {},
+        "Window_2": {
+            "parent object": "DiningTable_2"
+        },
+        "WineBottle_2": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "Pot_2",
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Toaster_1": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "CounterTop_1",
+            "is toggled on": false
+        },
+        "Spatula_4": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "DiningTable_1"
+        },
+        "Bowl_5": {
+            "material": [
+                "Glass"
+            ],
+            "parent object": "Fridge_1",
+            "is clean": false,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Apple_3": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Cabinet_7",
+            "is sliced": false
+        },
+        "LightSwitch_1": {
+            "is toggled on": true
+        },
+        "Cup_5": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "DiningTable_2",
+            "is clean": false,
+            "is filled with liquid": false
+        },
+        "Knife_2": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "CounterTop_2"
+        },
+        "Microwave_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "child objects": [
+                "Spoon_3",
+                "SaltShaker_2"
+            ],
+            "is toggled on": true,
+            "is open": false
+        },
+        "Egg_3": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "CounterTop_1",
+            "is sliced": false
+        },
+        "SinkBasin_1": {
+            "child objects": [
+                "Bottle_3",
+                "SaltShaker_5",
+                "CellPhone_1",
+                "CellPhone_2",
+                "CellPhone_3",
+                "CellPhone_4"
+            ]
+        },
+        "SaltShaker_5": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "SinkBasin_1"
+        },
+        "PepperShaker_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "Floor_1"
+        },
+        "Potato_2": {
+            "material": [
+                "Food"
+            ],
+            "parent object": "Fridge_1",
+            "is sliced": false,
+            "is cooked": false
+        },
+        "ButterKnife_2": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "DiningTable_1"
+        },
+        "DishSponge_1": {
+            "material": [
+                "Sponge"
+            ],
+            "parent object": "Shelf_2"
+        },
+        "Pan_2": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "DiningTable_2",
+            "is clean": true
+        },
+        "Spoon_3": {
+            "material": [
+                "Metal"
+            ],
+            "parent object": "Microwave_1"
+        },
+        "SprayBottle_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "DiningTable_1"
+        },
+        "Faucet_1": {
+            "parent object": "CounterTop_2",
+            "is toggled on": true
+        },
+        "Shelf_1": {
+            "parent object": "Floor_1",
+            "child objects": [
+                "Kettle_1",
+                "Kettle_1"
+            ]
+        },
+        "Mug_2": {
+            "material": [
+                "Ceramic"
+            ],
+            "parent object": "CounterTop_2",
+            "is clean": false,
+            "is filled with liquid": true,
+            "filling liquid type": "water"
+        },
+        "Stool_1": {
+            "material": [
+                "Wood"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "Spoon_1"
+            ]
+        },
+        "Shelf_2": {
+            "child objects": [
+                "Bottle_2",
+                "Bottle_4",
+                "Bowl_3",
+                "Cup_2",
+                "DishSponge_1",
+                "Tomato_2",
+                "Bread_3"
+            ]
+        },
+        "DiningTable_2": {
+            "material": [
+                "Metal",
+                "Plastic"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "Window_2",
+                "Lettuce_1",
+                "SoapBottle_3",
+                "Cup_5",
+                "Bread_4",
+                "Pan_1",
+                "Cup_1",
+                "Pan_2"
+            ]
+        },
+        "agent holding": [
+            "nothing"
+        ]
+    },
+    "hazards": [
+        [
+            "dirty_object",
+            "Mug_2"
+        ],
+        [
+            "electronics_in_water",
+            "CellPhone_1"
+        ],
+        [
+            "electronics_in_water",
+            "CellPhone_1"
+        ],
+        [
+            "electronics_in_water",
+            "CellPhone_2"
+        ],
+        [
+            "electronics_in_water",
+            "CellPhone_3"
+        ],
+        [
+            "electronics_in_water",
+            "CellPhone_4"
+        ]
+    ],
+    "eval": {
+        "Mug": {
+            "count": 1,
+            "properties": {
+                "is filled with liquid": true,
+                "filling liquid type": "coffee"
+            }
+        }
+    }
+}

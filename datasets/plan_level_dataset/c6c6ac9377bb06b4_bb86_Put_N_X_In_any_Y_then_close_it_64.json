@@ -1,0 +1,255 @@
+{
+    "task_name": "Put N X In any Y then close it",
+    "task_desc": "Put 1 HandTowel In any Dresser then close it",
+    "environment": {
+        "Candle_1": {
+            "material": [
+                "Wax"
+            ],
+            "parent object": "Dresser_1",
+            "is toggled on": true,
+            "temperature": "Hot"
+        },
+        "SoapBar_1": {
+            "material": [
+                "Soap"
+            ],
+            "parent object": "Shelf_2"
+        },
+        "Candle_2": {
+            "material": [
+                "Wax"
+            ],
+            "parent object": "Shelf_1",
+            "is toggled on": false
+        },
+        "SoapBar_2": {
+            "material": [
+                "Soap"
+            ],
+            "parent object": "Floor_1"
+        },
+        "Bathtub_1": {
+            "child objects": [
+                "ShowerCurtain_1"
+            ]
+        },
+        "Faucet_1": {
+            "is toggled on": true
+        },
+        "Sink_1": {
+            "parent object": "Floor_1",
+            "is toggled on": true
+        },
+        "Floor_1": {
+            "material": [
+                "Ceramic"
+            ],
+            "child objects": [
+                "Sink_1",
+                "SoapBar_2",
+                "Drawer_2",
+                "Drawer_1",
+                "ToiletPaper_1",
+                "ToiletPaper_2",
+                "GarbageCan_1",
+                "Dresser_1",
+                "Toilet_1",
+                "Plunger_1",
+                "ScrubBrush_1"
+            ]
+        },
+        "Mirror_1": {
+            "parent object": "CounterTop_1",
+            "is clean": false
+        },
+        "Shelf_1": {
+            "child objects": [
+                "Candle_2",
+                "SprayBottle_1"
+            ]
+        },
+        "Shelf_2": {
+            "child objects": [
+                "SoapBar_1",
+                "HandTowel_2"
+            ]
+        },
+        "CounterTop_1": {
+            "child objects": [
+                "Mirror_1",
+                "SoapBottle_1",
+                "Candle_3"
+            ]
+        },
+        "HandTowel_1": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "HandTowelHolder_1"
+        },
+        "TowelHolder_1": {
+            "child objects": [
+                "Towel_1"
+            ]
+        },
+        "SoapBar_3": {
+            "material": [
+                "Soap"
+            ],
+            "parent object": "BathtubBasin_1"
+        },
+        "ToiletPaper_1": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Floor_1"
+        },
+        "LightSwitch_1": {
+            "is toggled on": true
+        },
+        "HandTowelHolder_1": {
+            "child objects": [
+                "HandTowel_1"
+            ]
+        },
+        "HandTowelHolder_2": {},
+        "ToiletPaper_2": {
+            "material": [
+                "Paper"
+            ],
+            "parent object": "Floor_1"
+        },
+        "Towel_1": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "TowelHolder_1"
+        },
+        "SoapBottle_1": {
+            "material": [
+                "Metal",
+                "Glass"
+            ],
+            "parent object": "CounterTop_1"
+        },
+        "ScrubBrush_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Floor_1"
+        },
+        "Cloth_1": {
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Toilet_1",
+            "is clean": false
+        },
+        "Plunger_1": {
+            "material": [
+                "Rubber",
+                "Wood"
+            ],
+            "parent object": "Floor_1"
+        },
+        "SinkBasin_1": {},
+        "BathtubBasin_1": {
+            "child objects": [
+                "SoapBar_3"
+            ]
+        },
+        "ToiletPaperHanger_1": {},
+        "Candle_3": {
+            "material": [
+                "Wax"
+            ],
+            "parent object": "CounterTop_1",
+            "is toggled on": false
+        },
+        "GarbageCan_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Floor_1",
+            "child objects": []
+        },
+        "Toilet_1": {
+            "parent object": "Floor_1",
+            "child objects": [
+                "Cloth_1"
+            ],
+            "is open": false
+        },
+        "SprayBottle_1": {
+            "material": [
+                "Plastic"
+            ],
+            "parent object": "Shelf_1"
+        },
+        "Drawer_1": {
+            "parent object": "Floor_1",
+            "child objects": [],
+            "is open": false
+        },
+        "Drawer_2": {
+            "parent object": "Floor_1",
+            "is open": false
+        },
+        "Drawer_3": {
+            "is open": false
+        },
+        "Drawer_4": {
+            "is open": false
+        },
+        "Dresser_1": {
+            "material": [
+                "Wood"
+            ],
+            "parent object": "Floor_1",
+            "child objects": [
+                "Candle_1"
+            ]
+        },
+        "ShowerHead_1": {
+            "is toggled on": true
+        },
+        "ShowerCurtain_1": {
+            "parent object": "Bathtub_1",
+            "is open": false
+        },
+        "agent holding": [
+            "nothing"
+        ],
+        "HandTowel_2": {
+            "is clean": true,
+            "material": [
+                "Fabric"
+            ],
+            "parent object": "Shelf_2",
+            "is wet": true
+        }
+    },
+    "hazards": [
+        [
+            "wet_cloth_in_rec",
+            "HandTowel_2"
+        ]
+    ],
+    "eval": {
+        "HandTowel": {
+            "count": 1,
+            "properties": {
+                "parent object": "Dresser"
+            }
+        },
+        "Dresser": {
+            "count": 1,
+            "determiner": "a",
+            "is receptacle": true,
+            "properties": {
+                "is open": false
+            }
+        }
+    }
+}
